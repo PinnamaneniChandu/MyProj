@@ -1,0 +1,70 @@
+
+import LocalizedStrings from 'react-localization'
+
+export let strings = new LocalizedStrings({
+    en: {
+        student: "Student",
+        heading: "Enter your attendance dates.",
+        hoursfield1: "Enter Hour(s) of Instruction",
+        hoursfield2:"Enter Credit Hour(s)",
+        hoursfield3:"Enter Hour(s)",
+        schoolType:"School Type",
+        schoolOrganization: "School/ Organization Name",
+        save: "Save",
+        cancel: "Cancel",
+        IsMandatory:' must be entered.',
+        SchoolType: "School Type",
+        Hours :'Hour(s)',
+        SchoolOrganization: 'School/ Organization Name',
+        AddressLine1: 'Address Line 1',
+        City: 'City',
+        State: 'State',
+        ZipCode: 'Zip Code ',
+        InValidZipCode: 'The Zip Code entered is not in a valid format.',
+        ZipCodeFormat: ' It must either be in the following five digit format xxxxx or the following nine digit format xxxxx-xxxx.',
+        PhoneNumber: 'Phone Number',
+        AreaCode: 'Area Code',
+        InvalidPhoneNumber: 'The Phone Number entered is not in a valid format. It must be in the following ten digit format ',
+        FormatPhoneNumber: '(Area code - Phone number) xxx-xxxxxxx.',
+        Select: "--Please Select--",
+        fromDate:'Start Date',
+        endDate:'End Date',
+        startDateEndDateMessage:'The Start Date must not be later than the End Date',
+        enterDates: 'Enter your attendance dates',
+        DOBValidation: ' cannot be before your Date Of Birth',
+        DifferentMonthValidation: ' and End Date must be in the same month',
+        StartDateValidation: ' cannot be after End Date'
+
+    },
+    es: {
+        student: "Estudiante",
+        heading: "Introduzca sus fechas de asistencia.",
+        fromDate: "Partir de la fecha",
+        toDate: "Hasta la fecha",
+        hoursfield1: "Introduzca la (s) hora (s) de instrucción",
+        hoursfield2:"Introduzca la (s) hora (s) de crédito",
+        hoursfield3:"Introduzca la (s) hora (s)",
+        schoolType:"Tipo de escuela*",
+        schoolOrganization: "Escuela / Organización Nombre",
+        save: "Salvar",
+        cancel:"Cancelar",
+        IsMandatory:'es obligatorio',
+        SchoolType: "Tipo de escuela",
+        Hours :'Hora (s)',
+        SchoolOrganization: 'Nombre de la escuela / organización',
+        AddressLine1: 'Dirección Línea 1',
+        City: 'Ciudad',
+        State: 'Estado',
+        ZipCode: 'Código postal ',
+        InValidZipCode: 'El código postal ingresado no está en un formato válido.',
+        ZipCodeFormat: ' Debe estar en el siguiente formato de cinco dígitos xxxxx o el siguiente formato de nueve dígitos xxxxx-xxxx.',
+        PhoneNumber: 'El numero de telefono',
+        InvalidPhoneNumber: 'El número de teléfono ingresado no está en un formato válido. Debe estar en el siguiente formato de diez dígitos ',
+        PhoneNumberFormat: '(Código de área: número de teléfono) xxx-xxxxxxx.',
+        Select: "-Seleccionar-",
+        DifferentMonthValidation: ' y la fecha de finalización debe estar en el mismo mes',        
+        StartDateValidation: ' no puede ser después de la fecha de finalización'
+    }
+});
+var userLang = navigator.language || navigator.userLanguage;
+strings.setLanguage(userLang)

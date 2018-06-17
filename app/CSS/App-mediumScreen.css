@@ -1,0 +1,246 @@
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* Styles */
+
+    .headerName{
+        padding-top: 10px;
+        text-align: left;
+    }
+    .helptextStyle{
+        font-size:13px;
+        font-weight: bold;
+        margin-left: -11px;
+    }
+    .helptextStyle  p{
+        font-weight: normal; 
+        text-align: left; 
+    }
+    .required {
+        float: right;
+        color: orange;
+        font-family: Arial;
+        font-size: 10.5px;
+        text-align: right;
+        padding: 0 0 2% 0;
+    }
+    .sideHeaders{
+        color: #000000;
+        text-align: left;
+        font-size: 13.5px;
+        font-weight: normal;
+        line-height: 1.5em;
+        margin-top: 1.5em;
+        margin-bottom: 0;
+        margin-left: 1.2%;
+    }
+    .customDatePickerStyle{
+        display: inline-block;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .InfAcboYou{
+        padding: 10px 5px;
+        background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+        background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(63%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+        background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+        background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+        background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+        background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 ); 
+        -webkit-box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.54);
+        -moz-box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.54);
+        box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.54);    
+    }
+    .contactInformation-Paragraph{
+        font-weight: 700;
+        padding: 20px 17px 0 15px;
+    } 
+    
+        
+       
+}
+    
+    /* iPads (landscape) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (aspect-ratio : 1024/768) {
+    /* Styles */
+        .subScreenHeaderforSmallDevices{
+            color:#dd731c;
+            font-size:25px;
+        }
+        .selectDropDownArrowStyle {
+            background: no-repeat;
+            background-image: url(../assets/comboButtonArrows.png);
+            background-position: 97.5%, 100%, 100% 2%;
+        }
+        .marginLeftForButtons{
+            margin-left: -48px;
+        }
+        .welcomeNote{
+            padding-left:39px;
+        }
+        .customDatePickerStyle{
+            display: inline-block;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .systemFailureBodyText{
+            padding-top: 20px;
+            font-size: 19px;    
+        }
+        .PaddingForAdultPage1{
+            padding-left: 30%;
+            padding-right: 28%;
+        }
+        .PaddingForCommon{
+           padding-left: 28%;
+        }
+        .workActivityDetailsPadding{
+            padding: 0px 0px 0px 315px;
+        }
+        .income-details-buttons{
+        margin-left: 22pc;
+        }
+        .income-details-button{
+        margin-left: 25pc;
+        }             
+    }
+    
+    /* iPads (portrait) ----------- */
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (aspect-ratio : 768/1024) {
+    /* Styles */
+
+        .subScreenHeaderforSmallDevices{
+            color:#dd731c;
+            font-size:20px;
+        }
+        .selectDropDownArrowStyle {
+            background: no-repeat;
+            background-image: url(../assets/comboButtonArrows.png);
+            background-position: 97.5%, 100%, 100% 2%;
+        }
+        .marginLeftForButtons{
+            margin-left: -48px;
+        }
+        .customDatePickerStyle{
+            display: inline-block;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .PaddingForAdultPage1{
+            padding-left: 14pc;
+            padding-right: 5pc;	 
+       }
+       .PaddingForCommon{
+            padding-left: 11pc;		        
+        }
+        .systemFailureBodyText{
+            padding-top: 20px;
+            font-size: 19px;    
+        }
+        .workActivityDetailsPadding{
+            padding: 0px 0px 0px 205px;
+        }  
+        .income-details-buttons{
+        margin-left: 8pc;
+        }
+        .income-details-button{
+        margin-left: 12pc;
+        }  
+    }
+    /**********
+    iPad 3
+    **********/
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) and (aspect-ratio : 1024/768) {
+    /* Styles */
+
+
+    }
+    
+    @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) and (aspect-ratio : 768/1024) {
+    /* Styles */
+        
+}
+
+    
+
+
+
+/********** iPad Pro **********/
+    @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : landscape) and (-webkit-min-device-pixel-ratio : 2) and (aspect-ratio : 1366/1024) {
+        /* Styles */
+
+        .subScreenHeaderforSmallDevices{
+            color:#dd731c;
+            font-size:25px;
+        }
+        .selectDropDownArrowStyle {
+            background: no-repeat;
+            background-image: url(../assets/comboButtonArrows.png);
+            background-position: 98%, 100%, 100% 2%;
+        }
+        .marginLeftForButtons{
+            margin-left: -48px;
+        }
+        .customDatePickerStyle{
+            display: inline-block;
+            margin-left: 3%;
+            margin-right: 3%;
+        }
+        .PaddingForAdultPage1{
+            padding-left: 28%;
+            padding-right: 28%;
+        }
+        .PaddingForCommon{
+           padding-left: 28%;
+        }
+        .systemFailureBodyText{
+            padding-top: 20px;
+            font-size: 19px;    
+        }
+        .InfAcboYou{
+            padding: 10px 12px;
+            background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(51%, rgba(255,255,255,1)), color-stop(63%, rgba(255,255,255,1)), color-stop(100%, rgba(255,255,255,1)));
+            background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+            background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+            background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+            background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 51%, rgba(255,255,255,1) 63%, rgba(255,255,255,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#fefefe', GradientType=1 ); 
+            -webkit-box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.54);
+            -moz-box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.54);
+            box-shadow: 1px 1px 6px 2px rgba(0,0,0,0.54);    
+        }
+        .contactInformation-Paragraph{
+            font-weight: 700;
+            padding: 20px 17px 0 15px;
+        } 
+              
+    }
+        
+        @media only screen and (min-device-width : 1024px) and (max-device-width : 1366px) and (orientation : portrait) and (-webkit-min-device-pixel-ratio : 2) and (aspect-ratio : 1024/1366) {
+        /* Styles */
+        .marginLeftForButtons{
+            margin-left: -48px;
+        }
+        .PaddingForAdultPage1{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        .PaddingForCommon{
+           padding-left: 5%;
+        
+        }
+        .systemFailureBodyText{
+            padding-top: 20px;
+            font-size: 19px;    
+        }
+        .workActivityDetailsPadding{
+            padding: 0px 0px 0px 315px;
+        } 
+        .income-details-buttons{
+        margin-left: 22pc;
+        }
+        .income-details-button{
+        margin-left: 25pc;
+        }
+    }
